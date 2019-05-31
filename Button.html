@@ -1,0 +1,142 @@
+<html>
+<head>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.js"> </script>
+  <script src="bootstrap/js/bootstrap.min.js"> </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <title>Bootstrap Button</title>
+  <style>
+  .btnc {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;}
+
+  .prim{border-color:#2196F3;color:dodgerblue;}
+  .defa{border-color:#e7e7e7;color:black;}
+  .succ {border-color: #4CAF50;color: green;}
+  .inf {border-color: #2196F3;color: dodgerblue}
+  .warn {border-color: #ff9800;color: orange;}
+  .dang {border-color: #f44336;color: red}
+
+  </style>
+</head>
+<body>
+<br><br>
+<div class="container">
+<button class="btnc prim">Primary</button>
+<button class="btnc defa">Secondary</button>
+<button class="btnc succ">Success</button>
+<button class="btnc inf">Info</button>
+<button class="btnc warn">Warning</button>
+<button class="btnc dang">Danger</button>
+</div>
+<div class="container"><br><br>
+
+    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    <button type="button" class="btn btn-default btn-lg">Large button</button><br><br>
+    <button type="button" class="btn btn-primary btn-sm">Small button</button>
+    <button type="button" class="btn btn-default btn-sm">Small button</button>
+    <br><br>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level Button</button>
+    <button type="button" class="btn btn-default btn-lg btn-block">Block level Button</button>
+  </div>
+  <br><br>
+  <div class="container">
+
+  <div class="dropdown">
+    <button class="btn btn-default dropdown-toggle btn btn-danger" type="button" data-toggle="dropdown">Button Dropdown Menu
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu dropdown-menu">
+
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Bootstrap</a></li>
+      <li><a href="#">jQuery</a></li>
+      <li><a href="#">jQuery UI</a></li>
+      <li class="divider"></li>
+      <li><a href="#">PHP</a></li>
+    </ul>
+  </div>
+</div><br><br><br><br><br><br><br><br>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+  <ul class="nav navbar-nav">
+    <li><a href="#">HOME</a></li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MENUS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">MENU 2</a></li>
+            <li class="dropdown-submenu">
+            <a class="test" href="#">MENU 1 <span class="caret"></span></a>
+                  <ul class="dropdown-submenu">
+                    <li><a href="#">MENU 1.1</a></li>
+                    <li><a href="#">MENU 1.2</a></li>
+                  </ul>
+           </li>
+          </ul>
+            <li><a href="#">SETTINGS</a></li>
+              <li><a href="#">CONTACT</a></li>
+  </ul>
+  </div></nav>
+  <br><br><br>
+  <div>
+    <table class="table table-bordered">
+        <thead>
+          <tr class="active">
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Quality</th>
+            <th>Product Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="Info">
+            <td>1</td>
+            <td>Wheat</td>
+            <td>Good</td>
+            <td>200 Bags</td>
+          </tr>
+          <tr class="Danger">
+            <td>2</td>
+            <td>Rice</td>
+            <td>Good</td>
+  <td>250 Bags</td>
+          </tr>
+          <tr class="Warning">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+  <td>200 Bags</td>
+          </tr>
+          <tr class="gray">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200 Bags</td>
+          </tr>
+          <tr class="Success">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200 Bags</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+  <br><br><br>
+  <form class="form-inline" action="/action_page.php">
+      <div class="form-group">
+        <label for="email">email@example.com</label>
+         <input type="password" class="form-control" id="pwd" placeholder="password" name="pwd">
+  <button type="submit" class="btn btn-primary">Confirm Identity</button>
+      </div>
+  </div>
+
+
+
+</body>
+</html>
